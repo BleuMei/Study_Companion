@@ -30,3 +30,17 @@ function checkAnswer(answer) {
 }
 
 updatePointsDisplay();
+
+function enterClass() {
+  const code = document.getElementById("classCode").value.toUpperCase();
+
+  if (code === "CPE101") {
+    window.location.href = "cpe.html";
+  } else if (code === "IT101") {
+    window.location.href = "it.html";
+  } else if (code === "ECE101") {
+    window.location.href = "ece.html";
+  } else {
+    alert("Invalid class code");
+  }
+}
