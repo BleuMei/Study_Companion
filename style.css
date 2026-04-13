@@ -31,3 +31,19 @@ button {
   margin: 5px;
   cursor: pointer;
 }
+
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.nav a, button {
+  background: #2563eb;
+  color: white;
+  border: none;
+}
+
+.note, .quiz {
+  background: #1e293b;
+  border: 1px solid #3b82f6;
+}
